@@ -8,7 +8,7 @@ export const typeOrmConfig: TypeOrmModuleOptions= {
     password: 'postgres',
     database: 'taskmanagement',
     entities: [
-        __dirname + '/../**/*.entity.ts'
+      'C:/Users/Dev.exe/Desktop/NestJS/task-management/tasks/task.entity.ts',
       ],
     synchronize: true,
 

@@ -1,4 +1,4 @@
-import { BaseEntity, Column, Entity, EntityRepository, PrimaryGeneratedColumn, Repository } from "typeorm";
+import { BaseEntity, Column, Entity, PrimaryGeneratedColumn, Repository } from "typeorm";
 import { TaskStatus } from "./task-status.enum";
 
 @Entity()

@@ -7,9 +7,11 @@ import { Task } from './task.entity';
 
 import { TasksService } from './tasks.service';
 
-@Controller('tasks')
+@Controller('/tasks')
 export class TasksController {
     constructor (private tasksService:TasksService) {}
+        
+    
 
         // @Get()
         // getTasks(@Query(ValidationPipe) filterDto: GetTasksFilterDto): Task[]{
